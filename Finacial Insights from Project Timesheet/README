@@ -1,0 +1,96 @@
+# Project Time & Financial Dashboard – Power BI
+
+## Overview
+This dashboard provides a comprehensive view of project performance by combining **timesheet data** and **financial data**. It enables real-time tracking of project profitability, resource utilization, and cost efficiency.
+
+The dashboard simulates how businesses can make informed decisions by integrating labor effort with budgetary insights.
+
+---
+
+##  Tools & Skills Demonstrated
+- **Power BI Desktop**
+- **Data Modeling (Relationships)**
+- **DAX Calculated Measures**
+- **KPI Cards, Donut & Bar Charts**
+- **Slicers, Drill-throughs, and Filters**
+
+---
+
+## Data Sources
+Two mock datasets were used to simulate a real-world business scenario:
+
+### 1. Timesheet Data
+| Column         | Description                              |
+|----------------|------------------------------------------|
+| Project ID     | Unique project reference                 |
+| Employee       | Employee name                            |
+| Role           | Role in the project                      |
+| Date           | Date of work                             |
+| Hours Worked   | Number of hours logged                   |
+| Billable       | Whether the hours are client billable    |
+
+### 2. Financial Data
+| Column         | Description                              |
+|----------------|------------------------------------------|
+| Project ID     | Unique project reference                 |
+| Client         | Name of the client                       |
+| Start Date     | Project start date                       |
+| End Date       | Project end date                         |
+| Budget         | Project budget                           |
+| Revenue        | Expected project revenue                 |
+| Cost (to date) | Cost accrued so far                      |
+
+---
+
+##  Key Features of the Dashboard
+
+### 🔹 KPIs
+- **Total Hours Worked**
+- **Billable vs Non-Billable Breakdown**
+- **Utilization Rate**
+- **Gross Margin %**
+- **Revenue vs Actual Cost vs Budget**
+
+###  Visuals
+- Donut chart for time classification
+- Clustered bar chart for revenue/cost comparison
+- Table view of employee activity
+- Drill-down filters by role, project, client
+
+---
+
+##  Insights Derived
+- Identified **projects with highest cost overruns**
+- Tracked **billable utilization by role and employee**
+- Revealed **margin differences across clients**
+- Supported **project managers in optimizing labor allocation**
+
+---
+
+## Screenshots
+- ![image](https://github.com/user-attachments/assets/2260d1ef-05de-4ed5-ad6c-d7e8a3cf9b0f)
+
+- ![image](https://github.com/user-attachments/assets/6dd22129-fe3f-4e40-9f48-4f4e64a03928)
+
+- ![image](https://github.com/user-attachments/assets/516cd62d-df3a-40bd-9f29-5211578a9321)
+
+
+---
+
+##  Files Included
+- `Project Timesheet and Financial Data Insights.pbix` – Main Power BI file
+- `timesheet_data.csv` – Sample employee logs
+- `project_financial_data.csv` – Sample budget/revenue data
+
+---
+
+##  Author
+**Muhammadh Asbar**  
+Master of IT (Enterprise Management), University of South Australia  
+Data & Business Analytics | Power BI | Python | SQL  
+[LinkedIn Profile](#) www.linkedin.com/in/muhammadh-asbar
+
+---
+
+##  Note
+This project was created as part of a professional portfolio to demonstrate technical and business-oriented analytics skills. Data used is entirely mock-generated.
